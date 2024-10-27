@@ -1,6 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\AnunciosController;
+
+Route::get('/Login', [LoginController::class, 'login']);
+Route::get('/Anuncios', [AnunciosController::class, 'anuncios']);
 
 Route::get('/', function () {
     return view('welcome');
