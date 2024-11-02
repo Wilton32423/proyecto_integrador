@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduPlus Intranet</title>
+    <title>EduPlus</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <style>
+<style>
         /* CSS de Encabezado */
         .encabezado {
         display: flex;
@@ -89,14 +89,6 @@
         box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
         }
 
-        .logopie {
-            width: 20%; 
-            height: 100px; 
-            margin: 0 auto; 
-            display: block;
-        }
-
-
         .pie-pagina p {
             margin: 5px 0;
         }
@@ -111,21 +103,21 @@
         </div>
         <div class="contenedor-nav">
             <nav class="navegacion">
-                <a href="{{ route('Alumno.anuncios') }}">Anuncios</a>
-                <a href="{{ route('Alumno.docentes') }}">Docentes</a>
-                <a href="{{ route('Alumno.quejas') }}">Quejas</a>
-                <a href="{{ route('Alumno.notas') }}">Notas</a>
-                <a href="{{ route('Alumno.horarios') }}">Horarios</a>
-                <a href="{{ route('Login') }}" class="intranet">Salida</a>
+                <a href="#">Propuesta Educativa</a>
+                <a href="{{ route('index.nosotros') }}">Nosotros</a>
+                <a href="{{ route('index.anuncios') }}">Anuncios</a>
+                <a href="{{ route('index.contactanos') }}">Contáctenos</a>
+                <a href="{{ route('Login') }}" class="intranet">INTRANET</a>
             </nav>
         </div>
     </header>
+    
     <!-- Pie de Página -->
     <div class="pie-pagina">
-        <img src="{{ asset('images/pie.jpeg') }}" alt="Emilio del Solar" class="logopie">   
+        <p>EMILIO DEL SOLAR</p>
+        <p>Información adicional o texto de contacto aquí</p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
-

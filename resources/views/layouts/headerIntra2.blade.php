@@ -111,12 +111,12 @@
         </div>
         <div class="contenedor-nav">
             <nav class="navegacion">
-                <a href="{{ route('Alumno.anuncios') }}">Anuncios</a>
-                <a href="{{ route('Alumno.docentes') }}">Docentes</a>
-                <a href="{{ route('Alumno.quejas') }}">Quejas</a>
-                <a href="{{ route('Alumno.notas') }}">Notas</a>
-                <a href="{{ route('Alumno.horarios') }}">Horarios</a>
-                <a href="{{ route('Login') }}" class="intranet">Salida</a>
+                <a href="#">Anuncios</a>
+                <a href="#">Docentes</a>
+                <a href="#">Quejas</a>
+                <a href="#">Notas</a>
+                <a href="#">Horarios</a>
+                <a href="#" class="intranet">INTRANET</a>
             </nav>
         </div>
     </header>
